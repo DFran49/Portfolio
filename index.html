@@ -5,6 +5,7 @@
     <title>Portfolio de Francisco Crespo Martín</title>
     <LINK rel="stylesheet" href="mystyle.css">
     <SCRIPT src="app.js"></SCRIPT>
+    <script src="https://kit.fontawesome.com/dd263fb98f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav>
@@ -49,20 +50,26 @@
             <h2>Hard-Skills</h2>
             <img src="umlClass.png" alt="hard skills">
           </header>
-          <ul>
-            <li class="CabeceraHardskills">Frontend</li>
+          <ul id="listaFlex">
+            <div>
+              <li class="CabeceraHardskills">Frontend</li>
               <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
+                <li class="coloresFrontEnd">HTML</li>
+                <li class="coloresFrontEnd">CSS</li>
+                <li class="coloresFrontEnd">JavaScript</li>
               </ul>
-              <BR>
-            <li class="CabeceraHardskills">Backend</li>
+            </div>
+            
+              <BR><BR><BR>
+            <div>
+              <li class="CabeceraHardskills">Backend</li>
               <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>JavaScript</li>
+                <li class="coloresBackEnd">Java</li>
+                <li class="coloresBackEnd">Python</li>
+                <li class="coloresBackEnd">JavaScript</li>
               </ul>
+            </div>
+            
           </ul>
         </article>
         <article id="soft-skills">
@@ -127,10 +134,10 @@
           <header>
             <h2>Contacto</h2>
             <BR>
-            <A href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></A>
-            <A href="https://www.facebook.com/?locale=es_ES"><i class="fa-brands fa-facebook"></i></A>
-            <A href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></A>
-            <A href="https://www.reddit.com/?rdt=43971"><i class="fa-brands fa-reddit"></i></A>
+            <A href="https://www.instagram.com/" class="RRSS"><i class="fa-brands fa-instagram"></i></A>
+            <A href="https://www.facebook.com/?locale=es_ES" class="RRSS"><i class="fa-brands fa-facebook"></i></A>
+            <A href="https://twitter.com/" class="RRSS"><i class="fa-brands fa-x-twitter"></i></A>
+            <A href="https://www.reddit.com/?rdt=43971" class="RRSS"><i class="fa-brands fa-reddit"></i></A>
           </header>
           <!-- Añade datos de contacto y enlaces a rrss -->
         </article>
@@ -157,6 +164,5 @@
         <!-- Añade contenido libremente, apropiado y semanticamente correcto -->
       </section>
     </footer>
-    <script src="https://kit.fontawesome.com/dd263fb98f.js" crossorigin="anonymous"></script>
   </body>
 </html>

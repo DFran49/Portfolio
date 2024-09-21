@@ -17,14 +17,6 @@ nav {
     text-align: center;
 }
 
-a {
-    color: white;
-}
-
-a:visited {
-    color: black;
-}
-
 nav a {
     color: #fff;
     text-decoration: none;
@@ -86,21 +78,38 @@ MAIN #objectives {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-MAIN #contacto #social-networks IMG {
-    width: 30%;
-}
-
 I {
     width: 10%;
     font-size: 4em;
 }
 
-A:visited {
-    color: limegreen;
+a {
+    color: white;
+}
+
+a:visited {
+    color: darkcyan;
+}
+
+.RRSS i {
+    color: black;
 }
 
 .CabeceraHardskills {
     padding: 5%;
+}
+
+#listaFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.coloresFrontEnd {
+    background-image: linear-gradient(#333, rgba(255, 0, 0, 0.308));
+}
+
+.coloresBackEnd {
+    background-image: linear-gradient(#333,rgba(0, 0, 255, 0.24));
 }
 
 ul {
