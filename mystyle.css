@@ -91,8 +91,12 @@ a:visited {
     color: darkcyan;
 }
 
-.RRSS i {
+#social-networks header a {
     color: black;
+}
+
+#social-networks header a:visited {
+    color: darkcyan;
 }
 
 .CabeceraHardskills {
