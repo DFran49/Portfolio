@@ -17,6 +17,14 @@ nav {
     text-align: center;
 }
 
+a {
+    color: white;
+}
+
+a:visited {
+    color: black;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -31,6 +39,10 @@ header {
 header img {
     max-width: 100%;
     height: auto;
+}
+
+h1 {
+    font-size: xx-large;
 }
 
 article {
@@ -48,6 +60,11 @@ section {
 
 IMG {
     width: 10%;
+}
+
+blockquote {
+    font-size: x-large;
+    font-weight: bolder;
 }
 
 #sobre-mi IMG {
