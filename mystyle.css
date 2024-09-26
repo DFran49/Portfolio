@@ -78,6 +78,16 @@ MAIN #objectives {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#cv {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 85vh;
+}
+
+embed {
+    height: 100%;
+}
+
 I {
     width: 10%;
     font-size: 4em;
